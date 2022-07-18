@@ -41,7 +41,7 @@ span {
 }
 
 @media screen and (min-width: 930px) {
-    body {
+    .body {
         display: flex;
     }
     .aside {
@@ -252,4 +252,11 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
 }
