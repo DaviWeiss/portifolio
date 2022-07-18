@@ -26,11 +26,17 @@ span {
     .projects .project_2 {
         margin-left: 30px;
     }
+    .project {
+        min-width: 460px;
+    }
 }
 
 @media screen and (max-width: 1429px) {
     .projects {
         display: block;
+    }
+    .project {
+        width: 100%;
     }
 }
 
@@ -199,10 +205,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-}
-
-.project {
-    min-width: 460px;
 }
 
 .project,
